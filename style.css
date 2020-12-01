@@ -1,116 +1,137 @@
 body {
-    background: #4A90E2;
+  background: #4A90E2;
 }
 
-td {
-    border: 1px solid white;
-    width: 1448px;
-    height: 61px;
-    background: white;
+.navigation {
+  position: relative;
+  display: flex;
+  width: 1448px;
+  height: 61px;
+  background: white;
+  align-items: center;
 }
 
-.fb {
-    width: 40px;
-    height: 40px;
+.fb-icon {
+  height: 40px;
 }
-
+  
 .input-container {
-    position: relative;
-    width: 281px;
-    height: 40px;
-  }
-
-#field-Search-Facebook {
-    width: 100%;
-    height: 100%;
-    background: #f1f2f5;
-    border-radius: 100px;
-    border: 0;
-    padding: 11px 18px 11px 36px;
-    
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: relative;
+  width: 281px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 8px;
 }
-
+  
+.search-field {
+  width: 100%;
+  height: 100%;
+  background: #f1f2f5;
+  border-radius: 100px;
+  border: 0;
+  padding: 11px 18px 11px 36px;
+}
+  
+.search-field:focus {
+  outline: none;
+}
+  
+.search-field::placeholder {
+  font-size: 15px;
+  color: #66676b;
+}
+  
 .search-icon {
-    position: absolute;
-    top: 12px;
-    left: 12px;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+
+.elements1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 14px;
+}
+
+.play-icon {
+  position: relative;
+}
+
+.red-circle1 {
+  position: absolute;
+  top: 6px;
+  left: 595px;
+}
+
+.number6 p {
+position: absolute;
+left: 601.4px;
+top: -4px;
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 16px;
+color: #FFFFFF;
+}
+
+.red-circle2 {
+  position: absolute;
+  top: 6px;
+  left: 865px;
+}
+
+.number1 p {
+  position: absolute;
+  left: 871.4px;
+  top: -4px;
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #FFFFFF;
   }
 
-.home {
-    width: 24.5px;
-    height: 22.96px;
+.elements2 {
+  display: flex;
+  align-items: center;
+  margin-left: -18px;
 }
 
-.play {
-    width: 23px;
-    height: 22.5px;
-}
-
-.market {
-    width: 24px;
-    height: 22.5px;
-}
-
-.friends {
-    width: 26px;
-    height: 26px;
-}
-
-.maze {
-    width: 22px;
-    height: 22px;
-}
-
-.circle {
-    width: 29px;
-    height: 29px;
+.elements2 a {
+  margin-left: 111px;
 }
 
 p {
-    font-family: Helvetica Neue;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 18px;
+  text-decoration: none;
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: black;
 }
 
-.plus {
-    width: 40px;
-    height: 40px;
-}
-.messenger {
-    width: 40px;
-    height: 40px;
-}
-.bell {
-    width: 40px;
-    height: 40px;
-}
-.settings {
-    width: 40px;
-    height: 40px;
-
+.elements3 {
+  display: flex;
+  align-items: center;
+  margin-left: 143px;
+  
 }
 
-.display div { 
-    display: inline-block;
+.elements3 a {
+  margin-left: 9px;
+  text-decoration: none;
 }
 
-#num-elements1 {
-    margin-top: 17px;
-    margin-left: 10px;
-  }
+ 
 
-  #num-elements2 {
-    margin-top: 17px;
-    margin-left: 50px;
-  }
 
-  #num-elements3 {
-    margin-top: 17px;
-    margin-left: 200px;
-  }
 
 
 
